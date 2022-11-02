@@ -117,7 +117,7 @@ const Login = props => {
 
     const onSubmit = e => {
         e.preventDefault();
-        fetch('https://fullpod.tk/auth/login', {
+        fetch('http://localhost:4040/api/auth/login', {
              withCredentials: true,
             method: 'POST',
             headers: {
